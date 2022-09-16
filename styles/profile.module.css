@@ -1,0 +1,282 @@
+.topcontent {
+    background: url('../public/Mask.png');
+    width: 100%;
+    height: 210px;
+    margin-top: -15px;
+}
+
+.wrapper{
+    background: linear-gradient(180deg,rgb(33,33,41)0%,#101011 100%);
+    overflow-x: hidden;
+    height: 2065px;
+}
+
+.avatar{
+    width: 140px;
+    border-radius: 50%;
+}
+.maincontent{
+    padding: 150px;
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+}
+.top{
+    max-width: 1434px;
+    max-height: 250px;
+}
+.left_top{
+    display: flex;
+}
+.info{
+    margin-left: 25px;
+}
+.username1{
+    margin-top: 15px;
+    display: flex;
+}
+.text_bio{
+    margin-top: 30px;
+    max-width: 630px;
+    max-height: 65px;
+    color: #BFBFBF;
+}
+hr.top0{
+    margin-top: 30px;
+    border: 1px solid #3F3D46;
+}
+.right_top2{
+    display: flex;
+}
+.topd{
+    display: flex;
+    justify-content: space-between;
+}
+.dr{
+    width: 185px;
+    height: 42px;
+    background: url('../public/dr.png') no-repeat #FAC704 15px 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.dr h4{
+    margin-left: 40px;
+    color: #1A1A1C;
+}
+.chat{
+    width: 56px;
+    height: 42px;
+    background: url('../public/mdi_message-text.svg') no-repeat #3F3D46 16px 10px;
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+.to{
+    width: 56px;
+    height: 42px;
+    background: url('../public/toh.png') no-repeat #3F3D46 25px 13px;
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.top {
+    width: 100%;
+}
+
+.left_down{
+    margin: 20px;
+    overflow-y: scroll; 
+}
+.left_down::-webkit-scrollbar{
+    width: 5px; 
+}
+.left_down::-webkit-scrollbar-track{
+    background: #606060;
+    border-radius: 2px;
+}
+.left_down::-webkit-scrollbar-thumb{
+    background: #FAC704;
+    border-radius: 2px;
+}
+.left_down hr{
+    border: 1px solid #3F3D46;
+    width: 219px;
+    height: 0;
+    margin-top: -10px;
+    margin-left: 105px;
+    margin-right: 15px;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+}
+.dr_avatar{
+    width: 46px;
+    border-radius: 50%;
+}
+.dr_user{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-top: 15px;
+}
+.bce{
+    height: 30px;
+}
+.dr_pad{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+.dr_rank{
+    max-height: 25px;
+}
+.dr_tro {
+    margin-top: 15px;
+    background: url('../public/toh.png') no-repeat #3f3d4600;
+    border: none;
+    cursor: pointer;
+}
+.down_left{
+    background: #F8F8F80D;  
+    width: 410px;
+    height: 591px;
+    display: flex;
+    justify-content: flex-start;
+}
+.maincontent {
+    display: flex;
+    flex-direction: column;
+}
+.down_right_top2{
+    background: #F8F8F80D;
+    width: 940px;
+    height: 120px;
+}
+.top_contmain{
+    display: flex;
+    justify-content: center;
+}
+.down_contmain{
+    display: flex;
+    max-width: 1434px;
+    width: 100%;
+}
+.down_contmain1{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+.right{
+    max-width: 1504px;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.rightapp{
+    display: flex;
+}
+/*TYRNIR*/
+.tyrimg{
+    padding-top: 18px;
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+}
+
+.text{
+    padding-top: 40px;
+    font-size: 12px;
+}
+
+.tyrnire{
+    padding-top: 19px;
+    padding-left: 10px;
+}
+
+.tyr{   
+    margin-left: 25px; 
+    display: flex;
+    width: 150px;
+    height: 60px;
+    border-radius: 4px;
+    background: #F8F8F81A;
+    backdrop-filter: blur(10px);
+}
+/*WINNER*/
+.winr{
+    margin-left: 25px;
+    display: flex;
+    width: 150px;
+    height: 60px;
+    border-radius: 4px;
+    background: #F8F8F81A;
+    backdrop-filter: blur(10px);
+}
+.winimg{
+    padding-top: 18px;
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+}
+.win{
+    padding-top: 19px;
+    padding-left: 10px;
+}
+
+/*HOURS*/
+.time{
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    width: 165px;
+    height: 60px;
+    border-radius: 4px;
+    background: #F8F8F81A;
+    backdrop-filter: blur(10px);
+}
+.timeimg{
+    padding-top: 18px;
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+}
+.hours{
+    padding-top: 19px;
+    padding-left: 10px;
+}
+.ranked1{
+    display: flex;
+    align-items: center;
+}
+.rank {
+    margin-left: 10px;
+    max-height: 70px;
+}
+.top_us{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 25px;
+    align-items: center;
+    width: 925px;
+    height: 110px;
+}
+.down_right_down2{
+    margin-top: 40px;
+    background: #F8F8F80D;
+    width: 940px;
+    height: 432px;
+}
+.or{
+    color: #BFBFBF;
+}
+

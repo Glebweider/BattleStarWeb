@@ -1,0 +1,142 @@
+.top_content1 {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    padding-top: 25px;
+}
+.wrapper{
+    background: url(../public/fonMatch.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.top_open_teams {
+    width: 280px;
+    height: 90px;
+}
+.top_my_teams{
+    width: 280px;
+    height: 90px;
+}
+
+.top_my_teams1{
+    padding-left: 75px;
+    color: #F8F8F899;
+}
+.top_open_teams1{
+    padding-left: 45px;
+    color: #F8F8F899;
+}
+
+.top_open_teams hr{
+    margin-top: 5px;
+    border: 1px solid #C4C4C41A;
+}
+.top_my_teams hr{
+    margin-top: 5px;
+    border: 1px solid #C4C4C41A;
+}
+
+.top_my_teams.active hr{
+    border: 1px solid #FAC704;
+}
+.top_open_teams.active hr{
+    border: 1px solid #FAC704;
+}
+.top_my_teams.active a{
+    color: #FAC704;
+}
+.top_open_teams.active a{
+    color: #FAC704;
+}
+
+.con_teams1{
+    display: flex;
+    justify-content: center;
+}
+
+.con_teams{
+    display: flex;
+    flex-direction: column;
+}
+.prig_teams{
+    font-size: 18px;
+}
+
+.card {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #6FFF571A;
+    width: 1400px;
+    height: 80px;
+}
+.da{
+    margin-right: 15px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: url('/da.png') no-repeat #6FFF5733 10px 11px;
+    border: 1px solid #6FFF57;
+    border-radius: 4px;
+}
+.net{
+    margin-right: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: url('/net.png') no-repeat #F1393966 12px 12px;
+    border: 1px solid #F13939;
+    border-radius: 4px;
+}
+.img_teams{
+    height: 80px;
+}
+.off{
+    color:#606060;
+}
+.ray{
+    display: flex;
+    flex-direction: column;
+}
+.tyr{
+    display: flex;
+    flex-direction: column;
+}
+.wine{
+    display: flex;
+    flex-direction: column;
+}
+.playrs{
+    display: flex;
+    flex-direction: column;
+}
+.my_card{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #18181BE5;
+    width: 1400px;
+    height: 80px;
+}
+.my_teams{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.my_teams1{
+    display: flex;
+    flex-direction: column;
+}
+.my_inv{
+    font-size: 18px;
+}
+.active_block {
+    display: none;
+}

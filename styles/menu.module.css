@@ -1,0 +1,33 @@
+.os{
+    width: 255px;
+    height: 165px;
+    border-radius: 4px;
+    background: #1a1a1c15;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(120px);
+    border-radius: 4px;
+}
+.menu_profile{
+    margin-right: 18px;
+    width: 20px;
+}
+.menu_add{
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 22px;
+}
+.menu_link{
+    margin-top: 15px;
+    margin-right: 19px;
+    width: 18px;
+}
+.menu_report{
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 15px;
+}
+.re{   
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+} 
